@@ -3,13 +3,15 @@
 This project demonstrates a simple **point-to-point LoRa network** using two ESP32 boards with SX1278 LoRa modules. One board acts as a **sender**, the other as a **receiver**. It uses the LoRa protocol on the **433 MHz band** for low-power wireless data transmission.
 
 ## 📦 Project Structure
+
 lora-esp32-point-to-point/
+
 ├── sender/
 │   └── sender.ino        # Sends “Hi” then sleeps
+
 ├── receiver/
 │   └── receiver.ino      # Continuously listens for packets
-├── images/
-│   └── wiring-diagram.png (optional)
+
 └── README.md             # Project documentation
 ---
 
